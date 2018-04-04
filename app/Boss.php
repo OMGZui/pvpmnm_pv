@@ -15,4 +15,8 @@ class Boss extends Model
     public $timestamps = false;
     protected $primaryKey = 'id';
 
+    protected $fillable = [
+        'job_name',
+        'company_name'
+    ];
 }

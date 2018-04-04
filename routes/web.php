@@ -20,3 +20,4 @@ Route::group(['prefix' => 'home'], function () {
 });
 
 Route::get('/login','HomeController@login');
+Route::post('/send','GuzzleController@send');
